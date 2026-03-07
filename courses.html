@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses | Elston International Campus</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- AOS Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header Top Bar -->
+    <div class="header-top d-none d-lg-block">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="contact-info">
+                <span class="me-3"><i class="fas fa-envelope me-1"></i> info@elstoncampus.lk</span>
+                <span><i class="fas fa-map-marker-alt me-1 text-secondary"></i> Colombo, Sri Lanka</span>
+            </div>
+            <div class="social-links">
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <div class="bg-primary text-white p-2 rounded-circle me-2 d-flex align-items-center justify-content-center"
+                    style="width: 45px; height: 45px;">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div>
+                    <span class="h4 mb-0 fw-bold d-block" style="color: var(--primary-color);">ELSTON</span>
+                    <small class="text-uppercase tracking-wider"
+                        style="font-size: 0.65rem; color: var(--secondary-color); font-weight: 700;">International
+                        Campus</small>
+                </div>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a href="contact.html" class="btn btn-primary-sliit">Apply Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="py-5 text-white"
+        style="background: linear-gradient(rgba(0,65,112,0.95), rgba(0,65,112,0.9)), url('WhatsApp Image 2026-03-03 at 6.10.07 PM.jpeg') center/cover no-repeat;">
+        <div class="container py-4">
+            <h1 class="display-5 fw-bold text-white mb-2" data-aos="fade-right">Academic Programmes</h1>
+            <nav aria-label="breadcrumb" data-aos="fade-right" data-aos-delay="100">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white-50 text-decoration-none">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">Courses</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Director's Message -->
+    <section class="py-5" style="background: linear-gradient(135deg, #f8fafc 0%, #e8f0f7 100%);">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-4 text-center" data-aos="fade-right">
+                    <div class="position-relative d-inline-block" style="max-width: 260px; width: 100%;">
+                        <div
+                            style="border-radius: 8px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,65,112,0.25); border: 5px solid #fff; aspect-ratio: 4/5;">
+                            <img src="WhatsApp Image 2026-03-03 at 6.05.38 PM.jpeg" alt="Director"
+                                style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
+                        </div>
+                        <div class="mt-3">
+                            <h5 class="fw-bold mb-0" style="color: var(--primary-color);">Director</h5>
+                            <p class="small text-secondary mb-0">Elston International Campus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8" data-aos="fade-left">
+                    <span class="text-secondary fw-bold text-uppercase small mb-2 d-block">A Message From Our</span>
+                    <h2 class="display-6 fw-bold mb-4" style="color: var(--primary-color);">Director's Message</h2>
+                    <div
+                        style="border-left: 4px solid var(--secondary-color); padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                        <p class="lead text-secondary fst-italic mb-0">"At Elston International Campus, we believe in
+                            nurturing not just academic brilliance, but the whole person — equipping students with the
+                            skills, confidence, and global mindset needed to thrive in today's interconnected world."
+                        </p>
+                    </div>
+                    <p class="text-secondary mb-3">Our diverse portfolio of programmes — spanning Hospitality & Tourism
+                        Management, Business, Computing & Artificial Intelligence, and English Language — are
+                        meticulously designed to meet international standards while remaining deeply rooted in
+                        practical, industry-relevant learning.</p>
+                    <p class="text-secondary mb-4">We invite you to explore our programmes and discover the pathway that
+                        aligns with your aspirations. Together, let us build a future of excellence, innovation, and
+                        opportunity.</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <div class="text-center px-4 py-3"
+                            style="background: var(--primary-color); color: white; border-radius: 4px; min-width: 100px;">
+                            <div class="h4 fw-bold mb-0">4+</div>
+                            <small>Faculties</small>
+                        </div>
+                        <div class="text-center px-4 py-3"
+                            style="background: var(--secondary-color); color: var(--primary-color); border-radius: 4px; min-width: 100px;">
+                            <div class="h4 fw-bold mb-0">10+</div>
+                            <small>Programmes</small>
+                        </div>
+                        <div class="text-center px-4 py-3 border"
+                            style="border-radius: 4px; min-width: 100px; color: var(--primary-color);">
+                            <div class="h4 fw-bold mb-0">100%</div>
+                            <small>Committed</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- School of Hospitality -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center mb-5 g-4">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div
+                        style="border-radius: 8px; overflow: hidden; height: 260px; box-shadow: 0 8px 30px rgba(0,65,112,0.15);">
+                        <img src="WhatsApp Image 2026-03-03 at 6.29.08 PM.jpeg" alt="Hospitality & Tourism"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <span class="text-secondary fw-bold text-uppercase small mb-2 d-block">Faculty of Hospitality</span>
+                    <h2 class="display-5 fw-bold text-primary mb-3">School of Hospitality &amp; Tourism Management</h2>
+                    <p class="lead text-secondary">Providing foundational and advanced knowledge for global career
+                        success in the thriving hospitality industry with internationally benchmarked standards.</p>
+                    <div class="bg-light p-3 rounded-0 border-start border-5 border-secondary mt-3">
+                        <h4 class="h6 fw-bold mb-1">Duration</h4>
+                        <p class="small text-secondary mb-0">6 Months (Diploma) to 12 Months (Higher Diploma)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 Listing-Grid">
+                <!-- Diploma Hospitality -->
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div
+                        class="course-detail-card h-100 bg-white border-top border-4 border-primary shadow-sm p-4 pt-5 position-relative hover-shadow">
+                        <div
+                            class="category-tag position-absolute top-0 start-0 bg-primary text-white px-3 py-1 small fw-bold">
+                            6 MONTHS</div>
+                        <h3 class="h4 fw-bold mb-4">Diploma in Hospitality & Tourism Management</h3>
+
+                        <div class="curriculum-accordion">
+                            <div class="semester-box mb-4">
+                                <h5 class="fw-bold text-primary border-bottom pb-2 mb-3"><i
+                                        class="fas fa-calendar-alt me-2"></i>Semester 1</h5>
+                                <div class="row g-2">
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small"><i
+                                                class="fas fa-check text-secondary me-2"></i>Intro to Hospitality</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small"><i
+                                                class="fas fa-check text-secondary me-2"></i>F&B Operations</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small"><i
+                                                class="fas fa-check text-secondary me-2"></i>Front Office Mgt</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small"><i
+                                                class="fas fa-check text-secondary me-2"></i>Housekeeping Ops</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="semester-box">
+                                <h5 class="fw-bold text-primary border-bottom pb-2 mb-3"><i
+                                        class="fas fa-calendar-alt me-2"></i>Semester 2</h5>
+                                <div class="row g-2">
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small"><i
+                                                class="fas fa-check text-secondary me-2"></i>Customer Excellence</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small"><i
+                                                class="fas fa-check text-secondary me-2"></i>Tourism Management</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small"><i
+                                                class="fas fa-check text-secondary me-2"></i>Event Planning</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small"><i
+                                                class="fas fa-check text-secondary me-2"></i>Hospitality Comm.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Higher Diploma Hospitality -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div
+                        class="course-detail-card h-100 bg-white border-top border-4 border-secondary shadow-sm p-4 pt-5 position-relative hover-shadow">
+                        <div
+                            class="category-tag position-absolute top-0 start-0 bg-secondary text-primary px-3 py-1 small fw-bold">
+                            12 MONTHS</div>
+                        <h3 class="h4 fw-bold mb-4">Higher Diploma in Hospitality & Tourism Management</h3>
+
+                        <div class="curriculum-accordion">
+                            <div class="semester-box mb-4">
+                                <h5 class="fw-bold text-primary border-bottom pb-2 mb-3"><i
+                                        class="fas fa-calendar-alt me-2"></i>Level 1 (Sem 1 & 2)</h5>
+                                <p class="small text-secondary mb-3">Hotel Operations, Event Management, Tourism
+                                    Marketing, Finance, and Strategic Leadership.</p>
+                                <div class="d-flex flex-wrap gap-2">
+                                    <span class="badge bg-light text-secondary border">Leadership</span>
+                                    <span class="badge bg-light text-secondary border">Finance</span>
+                                    <span class="badge bg-light text-secondary border">Global Standards</span>
+                                </div>
+                            </div>
+                            <div class="semester-box bg-light-orange p-3 border-start border-4 border-secondary">
+                                <h5 class="fw-bold text-primary mb-2"><i class="fas fa-star me-2"></i>Professional
+                                    Pathway (Sem 3 & 4)</h5>
+                                <p class="small text-secondary mb-3 font-italic">Advanced Management, Resort Operations,
+                                    and Quality Management.</p>
+                                <div class="alert alert-secondary py-2 px-3 small rounded-0 border-0 mb-0">
+                                    <i class="fas fa-info-circle me-2"></i><strong>Internship:</strong> 3–6 Months in
+                                    Star-class Hotels / Resorts.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- School of Business -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center mb-5 g-4">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div
+                        style="border-radius: 8px; overflow: hidden; height: 260px; box-shadow: 0 8px 30px rgba(0,65,112,0.15);">
+                        <img src="WhatsApp Image 2026-03-03 at 6.24.01 PM.jpeg" alt="School of Business"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <span class="text-secondary fw-bold text-uppercase small mb-2 d-block">Faculty of Business</span>
+                    <h2 class="display-5 fw-bold text-primary mb-3">School of Business</h2>
+                    <p class="lead text-secondary">Preparing future leaders, entrepreneurs, and corporate professionals
+                        through internationally aligned Diploma and Higher Diploma programmes.</p>
+                    <div class="bg-white p-3 rounded-0 border-start border-5 border-secondary shadow-sm mt-3">
+                        <h4 class="h6 fw-bold mb-1 text-primary">Key Focus</h4>
+                        <p class="small text-secondary mb-0">Strategic Thinking, Practical Mgt, Industry Readiness</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 Listing-Grid">
+                <!-- Diploma Business Mgt -->
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div
+                        class="course-detail-card h-100 bg-white border-top border-4 border-primary shadow-sm p-4 pt-5 position-relative hover-shadow">
+                        <div
+                            class="category-tag position-absolute top-0 start-0 bg-primary text-white px-3 py-1 small fw-bold">
+                            6 MONTHS</div>
+                        <h3 class="h4 fw-bold mb-4">Diploma in Business Management</h3>
+
+                        <div class="curriculum-accordion">
+                            <div class="semester-box mb-4">
+                                <h5 class="fw-bold text-primary border-bottom pb-2 mb-3"><i
+                                        class="fas fa-calendar-alt me-2"></i>Semester 1</h5>
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Principles of Management</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Business Communication</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Marketing Fundamentals</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Business Economics</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="semester-box">
+                                <h5 class="fw-bold text-primary border-bottom pb-2 mb-3"><i
+                                        class="fas fa-calendar-alt me-2"></i>Semester 2</h5>
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Financial Accounting</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Organisational Behaviour</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Intro to HRM</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Corp. Responsibility</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diploma Int. Business -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div
+                        class="course-detail-card h-100 bg-white border-top border-4 border-primary shadow-sm p-4 pt-5 position-relative hover-shadow">
+                        <div
+                            class="category-tag position-absolute top-0 start-0 bg-primary text-white px-3 py-1 small fw-bold">
+                            6 MONTHS</div>
+                        <h3 class="h4 fw-bold mb-4">Diploma in Int. Business & Project Admin</h3>
+
+                        <div class="curriculum-accordion">
+                            <div class="semester-box mb-4">
+                                <h5 class="fw-bold text-primary border-bottom pb-2 mb-3"><i
+                                        class="fas fa-calendar-alt me-2"></i>Semester 1</h5>
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Int. Business Env.</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Global Trade & Econ</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Project Mgt Fund.</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Global Communication</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="semester-box">
+                                <h5 class="fw-bold text-primary border-bottom pb-2 mb-3"><i
+                                        class="fas fa-calendar-alt me-2"></i>Semester 2</h5>
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Supply Chain Mgt</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Business Law</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Risk Management</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Cross-Cultural Mgt</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Higher Diploma Business -->
+                <div class="col-lg-12" data-aos="fade-up">
+                    <div
+                        class="course-detail-card bg-white border-top border-4 border-secondary shadow-sm p-4 pt-5 position-relative hover-shadow">
+                        <div
+                            class="category-tag position-absolute top-0 start-0 bg-secondary text-primary px-3 py-1 small fw-bold">
+                            12 MONTHS</div>
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h3 class="h4 fw-bold mb-4">Higher Diploma in Business Management</h3>
+                                <p class="text-secondary small mb-4">Advanced modules covering strategic management,
+                                    corporate finance, human resource strategy, digital transformation, and professional
+                                    project execution.</p>
+                                <div class="row g-3 mb-4">
+                                    <div class="col-sm-4">
+                                        <div class="p-3 bg-light text-center small fw-bold text-primary">Strategic Mgt
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="p-3 bg-light text-center small fw-bold text-primary">Corp. Finance
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="p-3 bg-light text-center small fw-bold text-primary">Advanced HR
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 border-start">
+                                <div class="ps-md-4">
+                                    <h5 class="fw-bold text-primary mb-3"><i
+                                            class="fas fa-graduation-cap me-2"></i>Professional Outcome</h5>
+                                    <ul class="list-unstyled small text-secondary">
+                                        <li class="mb-2"><i class="fas fa-check text-secondary me-2"></i>UK Top-Up
+                                            Degree Progression</li>
+                                        <li class="mb-2"><i class="fas fa-check text-secondary me-2"></i>3–6 Months
+                                            Structured Internship</li>
+                                        <li class="mb-2"><i class="fas fa-check text-secondary me-2"></i>Industry-Ready
+                                            Certification</li>
+                                    </ul>
+                                    <div class="mt-4 p-3 bg-primary text-white small">
+                                        <strong>Semester 4:</strong> Research Methods + Final Capstone Project +
+                                        Internship.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- School of Computing & AI -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center mb-5 g-4">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div
+                        style="border-radius: 8px; overflow: hidden; height: 260px; box-shadow: 0 8px 30px rgba(0,65,112,0.15);">
+                        <img src="WhatsApp Image 2026-03-03 at 6.16.31 PM.jpeg" alt="Computing & Digital Innovation"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <span class="text-secondary fw-bold text-uppercase small mb-2 d-block">Faculty of Computing</span>
+                    <h2 class="display-5 fw-bold text-primary mb-3">Schools of Computing &amp; Digital Innovation</h2>
+                    <p class="lead text-secondary">Embracing the digital frontier with industry-certified technical
+                        education in IT and Artificial Intelligence.</p>
+                    <div class="bg-light p-3 rounded-0 border-start border-5 border-secondary shadow-sm mt-3">
+                        <h4 class="h6 fw-bold mb-1">Tech Stack</h4>
+                        <p class="small text-secondary mb-0">Full-Stack, Cloud, AI, Cyber Security</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 Listing-Grid mb-5">
+                <!-- IT Diploma -->
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div
+                        class="course-detail-card h-100 bg-white border-top border-4 border-primary shadow-sm p-4 pt-5 position-relative hover-shadow">
+                        <div
+                            class="category-tag position-absolute top-0 start-0 bg-primary text-white px-3 py-1 small fw-bold">
+                            6 MONTHS</div>
+                        <h3 class="h4 fw-bold mb-4">Diploma in Information Technology</h3>
+                        <div class="curriculum-accordion">
+                            <div class="semester-box mb-4">
+                                <h5 class="fw-bold text-primary border-bottom pb-2 mb-3"><i
+                                        class="fas fa-code me-2"></i>Semester 1</h5>
+                                <div class="row g-2">
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small">Computer Systems</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small">Python / Java</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small">Web Development</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small">DBMS</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="semester-box">
+                                <h5 class="fw-bold text-primary border-bottom pb-2 mb-3"><i
+                                        class="fas fa-network-wired me-2"></i>Semester 2</h5>
+                                <div class="row g-2">
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small">Networking Fund.</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small">Software Eng Basics</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small">Operating Systems</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="module-item p-2 bg-light small">Cyber Security</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IT Higher Diploma -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div
+                        class="course-detail-card h-100 bg-white border-top border-4 border-secondary shadow-sm p-4 pt-5 position-relative hover-shadow">
+                        <div
+                            class="category-tag position-absolute top-0 start-0 bg-secondary text-primary px-3 py-1 small fw-bold">
+                            12 MONTHS</div>
+                        <h3 class="h4 fw-bold mb-4">Higher Diploma in Information Technology</h3>
+                        <div class="curriculum-accordion">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <h6 class="fw-bold text-primary mb-2">Year 1 Modules</h6>
+                                    <ul class="list-unstyled small text-secondary">
+                                        <li class="mb-1"><i class="fas fa-check-circle me-2"></i>Adv. Programming</li>
+                                        <li class="mb-1"><i class="fas fa-check-circle me-2"></i>Mobile App Dev</li>
+                                        <li class="mb-1"><i class="fas fa-check-circle me-2"></i>Cloud Computing</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 border-start">
+                                    <h6 class="fw-bold text-primary mb-2">Year 2 focus</h6>
+                                    <ul class="list-unstyled small text-secondary">
+                                        <li class="mb-1"><i class="fas fa-check-circle me-2"></i>AI Fundamentals</li>
+                                        <li class="mb-1"><i class="fas fa-check-circle me-2"></i>Cyber Security</li>
+                                        <li class="mb-1"><i class="fas fa-check-circle me-2"></i>Software Quality</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mt-4 p-3 bg-primary text-white small rounded-0 shadow-sm">
+                                <i class="fas fa-laptop-code me-2"></i>Includes <strong>3–6 Months Industry
+                                    Internship</strong> + Capstone Project.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Section (Highlight) -->
+            <div class="row g-4 Listing-Grid">
+                <div class="col-12 mb-2">
+                    <h3 class="h4 fw-bold text-primary"><i class="fas fa-brain me-2"></i>Artificial Intelligence
+                        Programmes</h3>
+                </div>
+                <!-- AI Diploma -->
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div
+                        class="course-detail-card h-100 bg-white border-top border-4 border-primary shadow-sm p-4 pt-5 position-relative hover-shadow">
+                        <div
+                            class="category-tag position-absolute top-0 start-0 bg-primary text-white px-3 py-1 small fw-bold">
+                            1 YEAR</div>
+                        <h4 class="h5 fw-bold mb-4">Diploma in Artificial Intelligence (AI)</h4>
+                        <div class="curriculum-accordion small">
+                            <div class="mb-3">
+                                <strong>Sem 1:</strong> Intro to AI, Python/R, Data Science, Math for AI, Intro to ML.
+                            </div>
+                            <div class="mb-0">
+                                <strong>Sem 2:</strong> Adv. ML, NLP, Computer Vision, AI Ethics, Capstone Project.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- AI Higher Diploma -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div
+                        class="course-detail-card h-100 bg-white border-top border-4 border-secondary shadow-sm p-4 pt-5 position-relative hover-shadow">
+                        <div
+                            class="category-tag position-absolute top-0 start-0 bg-secondary text-primary px-3 py-1 small fw-bold">
+                            2 YEARS TOTAL</div>
+                        <h4 class="h5 fw-bold mb-4">Higher Diploma in Artificial Intelligence (AI)</h4>
+                        <div class="curriculum-accordion small">
+                            <div class="mb-3">
+                                <strong>Level 3:</strong> Deep Learning, Big Data, Reinforcement Learning, Industry
+                                Apps.
+                            </div>
+                            <div class="p-2 bg-primary text-white">
+                                <strong>Industrial Internship</strong> included in the final phase.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- School of English -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center mb-5 g-4">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div
+                        style="border-radius: 8px; overflow: hidden; height: 260px; box-shadow: 0 8px 30px rgba(0,65,112,0.15);">
+                        <img src="WhatsApp Image 2026-03-03 at 6.35.10 PM.jpeg" alt="English Language & Communication"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <span class="text-secondary fw-bold text-uppercase small mb-2 d-block">Faculty of Humanities</span>
+                    <h2 class="display-5 fw-bold text-primary mb-3">School of English Language &amp; Communication</h2>
+                    <p class="lead text-secondary">Mastering the global language of business, academia, and
+                        international relations through structured, immersive pathways.</p>
+                    <div class="bg-white p-3 rounded-0 border-start border-5 border-secondary shadow-sm mt-3">
+                        <h4 class="h6 fw-bold mb-1">Outcome</h4>
+                        <p class="small text-secondary mb-0">Academic Proficiency &amp; Professional Communication</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4 Listing-Grid">
+                <!-- English Diploma -->
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div
+                        class="course-detail-card h-100 bg-white border-top border-4 border-primary shadow-sm p-4 pt-5 position-relative hover-shadow">
+                        <div
+                            class="category-tag position-absolute top-0 start-0 bg-primary text-white px-3 py-1 small fw-bold">
+                            6 MONTHS</div>
+                        <h3 class="h4 fw-bold mb-4">Diploma in English Language</h3>
+                        <div class="curriculum-accordion">
+                            <div class="semester-box mb-4">
+                                <h5 class="fw-bold text-primary border-bottom pb-2 mb-3"><i
+                                        class="fas fa-book-open me-2"></i>Semester 1</h5>
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Grammar & Vocab</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Reading Prep</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Academic Writing</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Listening & Speaking</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="semester-box">
+                                <h5 class="fw-bold text-primary border-bottom pb-2 mb-3"><i
+                                        class="fas fa-comments me-2"></i>Semester 2</h5>
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Adv. Communication</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Business English</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">Presentation Skills</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="module-item p-2 bg-light small">EAP Essentials</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- English Higher Diploma -->
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div
+                        class="course-detail-card h-100 bg-white border-top border-4 border-secondary shadow-sm p-4 pt-5 position-relative hover-shadow">
+                        <div
+                            class="category-tag position-absolute top-0 start-0 bg-secondary text-primary px-3 py-1 small fw-bold">
+                            12 MONTHS</div>
+                        <h3 class="h4 fw-bold mb-4">Higher Diploma in English & Communication</h3>
+                        <p class="text-secondary small mb-4">Comprehensive focus on Advanced Syntax, Public Speaking,
+                            Cross-Cultural Communication, and Technical Writing.</p>
+                        <div class="curriculum-accordion">
+                            <ul class="list-group list-group-flush rounded-0 border mb-4">
+                                <li class="list-group-item small border-0 py-2"><i
+                                        class="fas fa-check text-secondary me-2"></i>Critical Reading & Analysis</li>
+                                <li class="list-group-item small border-0 py-2"><i
+                                        class="fas fa-check text-secondary me-2"></i>Creative & Technical Writing</li>
+                                <li class="list-group-item small border-0 py-2"><i
+                                        class="fas fa-check text-secondary me-2"></i>Public Speaking & Presentation</li>
+                            </ul>
+                            <div class="p-3 bg-light border-start border-4 border-primary">
+                                <h6 class="fw-bold text-primary mb-1">Final Phase</h6>
+                                <p class="small text-secondary mb-0">Capstone Project in Communication + Professional
+                                    Teaching / Industry Practicum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Schools -->
+    <section class="py-5 bg-white border-top">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-5" data-aos="fade-up">Future Expansion</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-5" data-aos="zoom-in">
+                    <div class="p-4 border rounded-0 bg-light-orange hover-shadow transition">
+                        <i class="fas fa-heartbeat text-secondary fs-1 mb-3"></i>
+                        <h4 class="text-primary fw-bold">School of Medical & Health Sciences</h4>
+                        <p class="small text-secondary mb-0">In development: Nursing, Allied Health, and Biomedical
+                            Science programmes benchmarked for global recognition.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Site Footer -->
+    <footer class="footer py-5 text-white" style="background-color: #001a2c;">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="bg-white text-primary p-2 rounded-circle me-3 d-flex align-items-center justify-content-center"
+                            style="width: 40px; height: 40px;">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="h4 mb-0 fw-bold text-white">ELSTON <span class="text-secondary">CAMPUS</span></h3>
+                    </div>
+                    <p class="small text-white-50 mb-4">Elston International Campus: Bridging the gap between academics
+                        and the global workforce through student-centered professional education.</p>
+                    <div class="d-flex gap-2">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"
+                            style="width: 35px; height: 35px; padding: 6px;"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"
+                            style="width: 35px; height: 35px; padding: 6px;"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"
+                            style="width: 35px; height: 35px; padding: 6px;"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="fw-bold mb-4 border-start border-3 border-secondary ps-3">Quick Links</h5>
+                    <ul class="list-unstyled footer-links small">
+                        <li class="mb-2"><a href="index.html"
+                                class="text-white-50 text-decoration-none hover-secondary">Home</a></li>
+                        <li class="mb-2"><a href="about.html"
+                                class="text-white-50 text-decoration-none hover-secondary">About Us</a></li>
+                        <li class="mb-2"><a href="courses.html"
+                                class="text-white-50 text-decoration-none hover-secondary font-bold text-white">Programmes</a>
+                        </li>
+                        <li class="mb-2"><a href="services.html"
+                                class="text-white-50 text-decoration-none hover-secondary">Services & Scholarships</a>
+                        </li>
+                        <li class="mb-2"><a href="contact.html"
+                                class="text-white-50 text-decoration-none hover-secondary">Apply Now</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="fw-bold mb-4 border-start border-3 border-secondary ps-3">Faculties</h5>
+                    <ul class="list-unstyled footer-links small">
+                        <li class="mb-2"><a href="courses.html"
+                                class="text-white-50 text-decoration-none hover-secondary">Computing & AI</a></li>
+                        <li class="mb-2"><a href="courses.html"
+                                class="text-white-50 text-decoration-none hover-secondary">Business Management</a></li>
+                        <li class="mb-2"><a href="courses.html"
+                                class="text-white-50 text-decoration-none hover-secondary">Hospitality & Tourism</a>
+                        </li>
+                        <li class="mb-2"><a href="courses.html"
+                                class="text-white-50 text-decoration-none hover-secondary">English & Communication</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="fw-bold mb-4 border-start border-3 border-secondary ps-3">Contact Us</h5>
+                    <p class="small text-white-50 mb-2"><i
+                            class="fas fa-map-marker-alt me-2 text-secondary"></i>Colombo, Sri Lanka</p>
+                    <p class="small text-white-50 mb-2"><i class="fas fa-phone-alt me-2 text-secondary"></i>+94 77 123
+                        4567</p>
+                    <p class="small text-white-50 mb-4"><i
+                            class="fas fa-envelope me-2 text-secondary"></i>info@elston.edu</p>
+                    <a href="contact.html" class="btn btn-primary-sliit btn-sm w-100">Get in Touch</a>
+                </div>
+            </div>
+            <hr class="my-5 border-white-10" style="opacity: 0.1;">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="small text-white-50 mb-0">&copy; 2026 Elston International Campus. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <a href="#" class="text-white-50 small text-decoration-none me-4 hover-secondary">Privacy Policy</a>
+                    <a href="#" class="text-white-50 small text-decoration-none hover-secondary">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            easing: 'ease-out'
+        });
+    </script>
+</body>
+
+</html>
